@@ -20,9 +20,11 @@ namespace TrelloNet
 			public string FullName { get; set; }
 			public string Username { get; set; }
 			public string AvatarHash { get; set; }
-			public string Initials { get; set; }
+            public string Initials { get; set; }
+            public string email { get; set; }
 
-			public string GetMemberId()
+
+            public string GetMemberId()
 			{
 				return Id;
 			}
